@@ -1,0 +1,200 @@
+[
+  {
+    "state": "Andhra Pradesh",
+    "slug": "andhra-pradesh",
+    "dish": "Gongura Pachadi",
+    "description": "Tangy sorrel chutney popular in Andhra cuisine."
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "slug": "arunachal-pradesh",
+    "dish": "Thukpa",
+    "description": "Noodle soup with vegetables and meat."
+  },
+  {
+    "state": "Assam",
+    "slug": "assam",
+    "dish": "Masor Tenga",
+    "description": "Tangy fish curry often made with tomatoes or raw mango."
+  },
+  {
+    "state": "Bihar",
+    "slug": "bihar",
+    "dish": "Litti Chokha",
+    "description": "Roasted wheat balls served with spiced mashed vegetables."
+  },
+  {
+    "state": "Chhattisgarh",
+    "slug": "chhattisgarh",
+    "dish": "Chila",
+    "description": "Savory pancake made from rice and lentil batter."
+  },
+  {
+    "state": "Goa",
+    "slug": "goa",
+    "dish": "Goan Fish Curry",
+    "description": "Coconut-based curry with kokum and spices."
+  },
+  {
+    "state": "Gujarat",
+    "slug": "gujarat",
+    "dish": "Dhokla",
+    "description": "Steamed fermented gram flour snack."
+  },
+  {
+    "state": "Haryana",
+    "slug": "haryana",
+    "dish": "Bajra Khichdi",
+    "description": "Pearl millet khichdi often eaten with ghee."
+  },
+  {
+    "state": "Himachal Pradesh",
+    "slug": "himachal-pradesh",
+    "dish": "Dham",
+    "description": "Traditional festive meal with rice, dal, and curries."
+  },
+  {
+    "state": "Jharkhand",
+    "slug": "jharkhand",
+    "dish": "Thekua",
+    "description": "Sweet deep-fried cookie made with jaggery."
+  },
+  {
+    "state": "Karnataka",
+    "slug": "karnataka",
+    "dish": "Bisi Bele Bath",
+    "description": "Spicy rice, lentil and vegetable one-pot dish."
+  },
+  {
+    "state": "Kerala",
+    "slug": "kerala",
+    "dish": "Kerala Sadya",
+    "description": "Banana-leaf served feast with many vegetarian dishes."
+  },
+  {
+    "state": "Madhya Pradesh",
+    "slug": "madhya-pradesh",
+    "dish": "Bhutte ka Kees",
+    "description": "Grated corn cooked with spices and milk."
+  },
+  {
+    "state": "Maharashtra",
+    "slug": "maharashtra",
+    "dish": "Pav Bhaji",
+    "description": "Mashed vegetable curry served with buttered buns."
+  },
+  {
+    "state": "Manipur",
+    "slug": "manipur",
+    "dish": "Eromba",
+    "description": "Mashed vegetables with fermented fish."
+  },
+  {
+    "state": "Meghalaya",
+    "slug": "meghalaya",
+    "dish": "Jadoh",
+    "description": "Red rice cooked with pork and spices."
+  },
+  {
+    "state": "Mizoram",
+    "slug": "mizoram",
+    "dish": "Bai",
+    "description": "Steamed vegetables with bamboo shoots and pork."
+  },
+  {
+    "state": "Nagaland",
+    "slug": "nagaland",
+    "dish": "Smoked Pork with Axone",
+    "description": "Smoked pork cooked with fermented soybean."
+  },
+  {
+    "state": "Odisha",
+    "slug": "odisha",
+    "dish": "Pakhala Bhata",
+    "description": "Fermented rice dish served with sides, popular in summers."
+  },
+  {
+    "state": "Punjab",
+    "slug": "punjab",
+    "dish": "Sarson da Saag & Makki ki Roti",
+    "description": "Mustard greens curry served with corn flatbread."
+  },
+  {
+    "state": "Rajasthan",
+    "slug": "rajasthan",
+    "dish": "Dal Baati Churma",
+    "description": "Baked wheat balls with ghee, served with dal and sweet crumb."
+  },
+  {
+    "state": "Sikkim",
+    "slug": "sikkim",
+    "dish": "Momos",
+    "description": "Steamed dumplings filled with meat or vegetables."
+  },
+  {
+    "state": "Tamil Nadu",
+    "slug": "tamil-nadu",
+    "dish": "Idli & Sambar",
+    "description": "Steamed rice cakes with lentil and vegetable stew."
+  },
+  {
+    "state": "Telangana",
+    "slug": "telangana",
+    "dish": "Hyderabadi Biryani",
+    "description": "Fragrant layered rice with marinated meat and spices."
+  },
+  {
+    "state": "Tripura",
+    "slug": "tripura",
+    "dish": "Mui Borok",
+    "description": "Fermented fish-based traditional tripuri curry."
+  },
+  {
+    "state": "Uttar Pradesh",
+    "slug": "uttar-pradesh",
+    "dish": "Tunday Kababi",
+    "description": "Soft minced meat kebab, specialty of Lucknow."
+  },
+  {
+    "state": "Uttarakhand",
+    "slug": "uttarakhand",
+    "dish": "Kafuli",
+    "description": "Spinach and fenugreek based curry."
+  },
+  {
+    "state": "West Bengal",
+    "slug": "west-bengal",
+    "dish": "Rosogolla",
+    "description": "Soft syrupy cheese balls."
+  },
+  {
+    "state": "Andaman and Nicobar Islands",
+    "slug": "andaman-and-nicobar",
+    "dish": "Fish Curry",
+    "description": "Fresh seafood preparations with coconut and spices."
+  },
+  {
+    "state": "Chandigarh",
+    "slug": "chandigarh",
+    "dish": "Chole Bhature",
+    "description": "Spiced chickpea curry served with fried bread."
+  },
+  {
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "slug": "dadra-daman",
+    "dish": "Feni-based Seafood Curries",
+    "description": "Coastal influence with Goan/Portuguese flavors."
+  },
+  {
+    "state": "Lakshadweep",
+    "slug": "lakshadweep",
+    "dish": "Tuna Curry",
+    "description": "Coconut-based curry using fresh tuna from the atolls."
+  },
+  {
+    "state": "Delhi",
+    "slug": "delhi",
+    "dish": "Chaat",
+    "description": "Variety of savory street snacks with sweet, sour, and spicy elements."
+  }
+]
