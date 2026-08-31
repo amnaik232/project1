@@ -27,7 +27,7 @@ Docker
   docker build -t cloud-kitchen:latest .
 
 - Run:
-  docker run -p 3000:3000 cloud-kitchen:latest
+  docker run -p 3000:8000 cloud-kitchen:latest
 
 Docker Compose
 - docker-compose up --build
