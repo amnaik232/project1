@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Cloud Kitchen — India</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    body { font-family: system-ui, -apple-system, Roboto, Arial; padding: 24px; }
+    header { display:flex; gap:16px; align-items:center; }
+    input { padding:8px; width: 300px; }
+    .grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(220px,1fr)); gap:16px; margin-top:16px; }
+    .card { border:1px solid #eee; padding:12px; border-radius:8px; background:#fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cloud Kitchen — Famous Dishes of India</h1>
+    <div style="margin-left:auto;">
+      <input id="search" placeholder="Filter by state or dish..." />
+    </div>
+  </header>
+
+  <div id="count"></div>
+  <div id="list" class="grid"></div>
+
+  <script>
+    async function fetchStates() {
+      const res = await fetch('/api/states');
+      return await res.json();
+    }
+
+    function render(entries) {
+      const list = document.getElementById('list');
+      const count = document.getElementById('count');
+      list.innerHTML = '';
+      count.textContent = entries.length + ' results';
+      for (const e of entries) {
+        const card = document.createElement('div');
+        card.className = 'card';
+        card.innerHTML = `<strong>${e.state}</strong><div style="font-weight:600">${e.dish}</div><div style="color:#555">${e.description}</div>`;
+        list.appendChild(card);
+      }
+    }
+
+    (async function(){
+      let data = await fetchStates();
+      render(data);
+
+      const search = document.getElementById('search');
+      search.addEventListener('input', () => {
+        const q = search.value.trim().toLowerCase();
+        const filtered = data.filter(e => e.state.toLowerCase().includes(q) || e.dish.toLowerCase().includes(q) || e.description.toLowerCase().includes(q));
+        render(filtered);
+      });
+    })();
+  </script>
+</body>
+</html>
