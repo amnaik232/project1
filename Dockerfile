@@ -4,12 +4,12 @@ FROM node:18-alpine
 # Create app directory
 WORKDIR /usr/src/app
 
-# Copy package.json & package-lock if present
+# Copy package files
 COPY package.json ./
 COPY package-lock.json* ./
 
-# Install dependencies
-RUN npm ci --omit=dev
+# Install dependencies (use `npm ci` when lockfile exists, otherwise fallback to `npm install`)
+RUN if [ -f package-lock.json ]; then npm ci --omit=dev; else npm install --omit=dev; fi
 
 # Copy app source
 COPY . .
